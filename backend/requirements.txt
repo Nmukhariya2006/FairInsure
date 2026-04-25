@@ -1,0 +1,52 @@
+# ── Web framework ──────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+
+# ── Data validation ────────────────────────────────────────
+pydantic==2.7.1
+pydantic-settings==2.2.1
+
+# ── Database ───────────────────────────────────────────────
+sqlalchemy==2.0.30
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# ── ML core ────────────────────────────────────────────────
+scikit-learn==1.5.2
+xgboost==2.0.3
+joblib==1.4.2
+
+# ── Explainability & fairness ──────────────────────────────
+shap==0.45.0
+fairlearn==0.10.0
+
+# ── Data handling ──────────────────────────────────────────
+pandas==2.2.2
+numpy==1.26.4
+
+# ── Agentic AI (LangGraph + LangChain) ────────────────────
+langgraph==0.1.5
+langchain-core==0.2.5
+langchain-google-genai==1.0.5
+google-generativeai==0.5.4
+
+# ── Caching ────────────────────────────────────────────────
+redis==5.0.4
+
+
+
+# ── PDF report generation ──────────────────────────────────
+reportlab==4.2.0
+
+# ── Environment & config ───────────────────────────────────
+python-dotenv==1.0.1
+
+# ── HTTP client (for agent tool calls) ────────────────────
+httpx==0.27.0
+requests==2.32.2
+
+# ── Dev / testing ──────────────────────────────────────────
+pytest==8.2.0
+pytest-asyncio==0.23.6
+gunicorn

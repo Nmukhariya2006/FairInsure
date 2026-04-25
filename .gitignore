@@ -1,0 +1,24 @@
+# fairInsure/.gitignore
+
+# Virtual environment
+backend/venv/
+
+# Environment variables
+backend/.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Model artifacts (large files)
+backend/artifacts/*.pkl
+
+# Database
+*.db
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
